@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>POKEMON</title>
+         <!-- Conexion a CSS -->
+        <link rel ="stylesheet" type="text/css" href="css/estilos.css" href="css/fuentes.css">
+        <script
+        defer 
+        src="https://app.embed.im/snow.js"
+        ></script>
+        <script src="js/pokemon.js">  </script>
+    </head> 
+    <body>
+
+        <h1>  POKEMON  <img class="ball" src="imagenes/pokeball.png" width="100px">  </h1>
+
+        <section id="Seleccion Pokemon" >
+            <h2 >Elige Tu Pokemon</h2>
+
+           <div class="pokemones">
+            <p>
+                <label for="blastoise"> blastoise </label>
+                <img class="imgblas" src="imagenes/blastoise.png" width="150px">
+                <input type="radio" name="pkmn" id="blastoise"/>  
+            </p>
+
+            <p>
+                <label for="charizard"> charizard </label>
+                <img class="imgchari" src="imagenes/charizard.png" width="150px">
+                <input type="radio" name="pkmn" id ="charizard" /> 
+            </p>
+            
+            <p>
+                <label for="venasaur"> venasaur </label>
+                <img class="imgchari" src="imagenes/venasaur.png" width="150px">
+                <input type="radio" name="pkmn" id="venasaur">
+            </p>
+
+            </div>
+                         
+            <button id="seleccionar_pkmn">Seleccionar </button>
+        </section>
+
+        <section id="Ataque" >
+            <h2 >Elige el Ataque </h2>
+
+            <p > <span> 3 </span> Vidas</p>
+            <p > <span> 3 </span> Vidas (Rival) </p>
+            <p>
+                <button id="seleccionar_fuego"> Fuego 🔥</button>
+                <button id="seleccionar_agua"> Agua 💧</button>
+                <button id="seleccionar_planta"> Planta 🌱</button>
+            </p> 
+        </section>
+        
+        <section id = "mensajes">
+            <p>  </p>
+        </section>
+
+        <section id="reiniciar">
+            <button id="Reiniciar"> Reiniciar </button>
+        </section>
+    </body>
+</html>

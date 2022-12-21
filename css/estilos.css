@@ -1,0 +1,52 @@
+h1{
+    color:white;
+    text-align: center;
+    font-family:'miFuente1';
+    font-size: 48px;
+}
+h2{
+    color :white;
+    font-family: 'miFuente2';
+}
+
+@font-face {
+    font-family: 'miFuente1';
+    src: url(../fuentes/Pokemon_Hollow.ttf);
+    
+}
+@font-face {
+    font-family: 'miFuente2';
+    src: url(../fuentes/Pokemon_GB.ttf)
+}
+
+section{
+    color:white;
+    font-family: 'miFuente2';
+    text-align: center;
+}
+
+button{
+    font-family: 'miFuente2';
+}
+
+body{
+    background-color: black;
+}
+
+p{
+    color: white;
+}
+
+
+.pokemones{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    border-width: 1px 1px 1px 1px;
+}
+
+#reiniciar {
+    color: white;
+    margin-top: 100px;
+
+}
